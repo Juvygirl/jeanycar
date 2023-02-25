@@ -1,0 +1,210 @@
+/* Set the margin, background color, and font family for the entire body of the page */
+body {
+	margin: 0px;
+	background-color: #c5ded5;
+	font-family: arial;
+}
+
+/* Style the header section with a specific background color, margin, color, padding, max width, height, and border */
+#header {
+	background-color: #88ebf3;
+	margin: 0 auto;
+	color: #ed4c2b;
+	padding: 10px;
+	max-width: 600px;
+	height: auto;
+	border-bottom: solid 10px #008ba3;
+}
+
+/* Style the navigation section with a specific background color, color, margin, padding, max width, and border */
+#navigation {
+	background-color: #88ebf3;
+	color: #ed4c2b;
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 10px;
+	border-bottom: solid 5px #008ba3;
+}
+
+/* Style the footer section with a specific background color, padding, color, max width, margin, height, and clear */
+#footer {
+	background-color: #88ebf3;
+	padding: 10px;
+	color: #ed4c2b;
+	max-width: 600px;
+	margin: 0 auto;
+	height: auto;
+	clear: both;
+}
+
+/* Style the table with a class of "tbF" by setting the color */
+.tbF {
+	color: #444;
+}
+
+/* Style all table rows except the first one with a pointer cursor and a transition effect */
+.tbF tr:not(:first-child) {
+	cursor: pointer;
+	transition: all .25s ease-in-out;
+}
+
+/* Change the background color of a table row when hovered over */
+.tbF tr:not(:first-child):hover {
+	background-color: #f78c22;
+}
+
+/* Style text input elements with a width of 90% */
+input[type="text"] {
+	width: 90%;
+}
+
+/* Style button input elements with a bold font-weight and automatic width */
+input[type="button"] {
+	width: auto;
+	font-weight: bold;
+}
+
+/* Style an element with an ID of "column1" with a specific max width, color, margin, background color, padding, height, and border */
+#column1 {
+	max-width: 600px;
+	color: #ed4c2b;
+	margin: 0 auto;
+	background-color: #35bd5b;
+	padding: 10px;
+	height: auto;
+	border-bottom: solid 10px #008ba3;
+}
+
+/* Style an element with an ID of "postLink" with a specific max width, color, margin, background color, padding, height, and border */
+#postLink {
+	max-width: 600px;
+	color: #fff;
+	margin: 0 auto;
+	background-color: #35bd5f;
+	padding: 10px;
+	height: auto;
+	border-bottom: solid 10px #008ba3;
+}
+
+/* Style all anchor elements with a specific color and no text decoration */
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Change the color and add an underline to an anchor element when hovered over */
+a:hover {
+	color: #008ba3;
+	text-decoration: underline;
+}
+
+/* Style anchor elements within the header section with a specific color */
+#header a {
+	color: #9b2917;
+}
+
+/* Change the color and font weight of an anchor element within the header section when hovered over */
+#header a:hover {
+	font-weight: normal;
+	color: #9b2917;
+}
+
+/* Style list items within the navigation section with a float position and relative positioning */
+/* Navigation Styles */
+#navigation li {
+	float: center;
+	position: relative;
+}
+
+#navigation li a {
+	float: left;
+	display: flow-root;
+	color: #9b2917;
+	font-size: 25px;
+	text-decoration: inherit;
+	padding: 25px 30px;
+	margin: 0px;
+	border: 0;
+	border-right: 1px solid #d1cbbd;
+	outline: 0;
+}
+
+#navigation li a:hover,
+#navigation li#active a {
+	color: #9b2917;
+	background: rgba(0, 214, 203, 0.3);
+}
+
+/* Selected item style */
+.selected {
+  background-color: coral;
+}
+
+/* Table Styles */
+table.tbF {
+	margin: auto;
+	max-width: 600px;
+	border-collapse: collapse;
+	font-family: "Arial", Times, serif;
+}
+
+table.tbF thead th {
+	padding: 8px;
+	background-color: #fde9d9;
+	font-size: small;
+	font-style: oblique
+}
+
+.tbF th, td {
+  padding: 10px;
+  background-color: #fff;
+}
+
+tr:hover td {
+  background: #add8e6  !important;
+}
+
+td {
+    border: solid 1px lightgrey;
+}
+
+/* Form Styles */
+input, textarea {
+  border: 5px solid white; 
+  padding: 10px;
+  margin: 0 0 10px 0;
+}
+
+input[type="text"]:focus, textarea:focus {
+  -webkit-box-shadow: 0 0 2px #ed1c24 inset;
+  -moz-box-shadow: 0 0 2px #ed1c24 inset;
+  -ms-box-shadow: 0 0 2px #ed1c24 inset;
+  -o-box-shadow: 0 0 2px #ed1c24 inset;
+  box-shadow: 0 0 2px #ed1c24 inset;
+  background-color: #fff;
+  border: 1px solid #ed1c24;
+  outline: none;
+  width: auto;
+}
+
+/* General Styles */
+.container {
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+pre {
+  font-family: "arial", courier, serif;
+}
+
+.quote-row {
+  margin: 1px;
+}
+
+.quote-title {
+  margin: -3px;
+}
+
+#header_notify {
+  background-color: #FFD580;
+}
